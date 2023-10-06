@@ -10,7 +10,7 @@ describe('Registration Test', () => {
 
         cy.get(':nth-child(2) > .inputField').type('Nrushimha');
 
-        cy.get(':nth-child(3) > .inputField').type('kotev41020007@klanze.com');
+        cy.get(':nth-child(3) > .inputField').type('kotev41022307@klanze.com');
 
         cy.get(':nth-child(4) > .inputField').type('0452526992');
 

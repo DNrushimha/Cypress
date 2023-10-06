@@ -202,7 +202,7 @@ describe('Finding store', () => {
 
         cy.visit('https://uat.fortywinks.com.au/').viewport(1280, 720);
 
-        cy.get('.footer_menu__3kaki > :nth-child(4) > .flex').click();
+        cy.get('.footer_menu__3kaki > :nth-child(4) > .flex').click();        
 
         //Frequent Flyer
 
@@ -214,7 +214,7 @@ describe('Finding store', () => {
 
         cy.visit('https://uat.fortywinks.com.au/').viewport(1280, 720);
 
-        cy.get('.w-11 > a > span > img').click();
+        cy.get('.w-11 > a > span > img').click();         
 
         //Terms & Conditions
 
